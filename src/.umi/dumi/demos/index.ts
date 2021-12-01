@@ -9,8 +9,8 @@ import rawCode4 from '!!dumi-raw-code-loader!/Users/mac/Documents/work/hf/workin
 export default {
   'alert-basic': {
     component: dynamic({
-      loader: async () => (await import(/* webpackChunkName: "demos_nottuBWX" */'/Users/mac/Documents/work/hf/working/gitlab/react-component/lucky-ui/src/alert/demo/basic.tsx')).default,
+      loader: async () => (await import(/* webpackChunkName: "demos_trela" */'/Users/mac/Documents/work/hf/working/gitlab/react-component/lucky-ui/src/alert/demo/basic.tsx')).default,
     }),
-    previewerProps: { "sources": { "_": { "tsx": rawCode1 }, "index.tsx": { "import": "../index", "content": rawCode2 }, "style/index.ts": { "import": "../style", "content": rawCode3 }, "style/index.less": { "import": "./index.less", "content": rawCode4 } }, "dependencies": { "react": { "version": "17.0.2" }, "prop-types": { "version": "15.7.2" } }, "componentName": "alert", "identifier": "alert-basic" },
+    previewerProps: {"sources":{"_":{"tsx":rawCode1},"index.tsx":{"import":"../index","content":rawCode2},"style/index.ts":{"import":"../style","content":rawCode3},"style/index.less":{"import":"./index.less","content":rawCode4}},"dependencies":{"react":{"version":"17.0.2"},"prop-types":{"version":"15.7.2"}},"componentName":"alert","identifier":"alert-basic"},
   },
 };

@@ -1,2 +1,11 @@
 node_modules
 yarn.lock
+yarn-error.log
+
+src/.umi
+# src/.umi/*
+.umi
+
+src/.umi-production
+# src/.umi-production/*
+.umi-production
