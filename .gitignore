@@ -1,11 +1,22 @@
-node_modules
+/node_modules
+
+
 yarn.lock
 yarn-error.log
 
-src/.umi
-# src/.umi/*
-.umi
 
-src/.umi-production
-# src/.umi-production/*
+# umi
+.umi
 .umi-production
+.env.local
+
+# production
+/build
+/dist
+/lib
+/esm
+/doc-site
+/types
+
+# misc
+.DS_Store
