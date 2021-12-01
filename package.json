@@ -1,7 +1,11 @@
 {
-  "name": "lucky-ui",
+  "name": "z-lucky-ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "lucky-ui resp",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "module": "esm/index.js",
@@ -22,8 +26,14 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:update": "jest --updateSnapshot"
+    "test:update": "jest --updateSnapshot",
+    "prepublishOnly": "npm run build",
+    "release": "np --no-cleanup --no-tests --any-branch"
   },
+  "files": [
+    "lib",
+    "esm"
+  ],
   "lint-staged": {
     "src/**/*.ts?(x)": [
       "prettier --write",
@@ -70,6 +80,8 @@
   "dependencies": {
     "@babel/runtime": "^7.16.3",
     "cpr": "^3.0.1",
-    "prop-types": "^15.7.2"
+    "np": "^7.6.0",
+    "prop-types": "^15.7.2",
+    "semver": "^7.3.5"
   }
 }
