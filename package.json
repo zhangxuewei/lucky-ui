@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "dumi dev",
+    "build:site": "rimraf doc-site && dumi build",
+    "preview:site": "npm run build:site && serve doc-site"
   },
   "keywords": [],
   "author": "",

@@ -1,1 +1,1 @@
-export { default as Alert } from './XWButton';
+export { default as Alert } from './alert';
