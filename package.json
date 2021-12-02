@@ -1,6 +1,6 @@
 {
-  "name": "zx-lucky-ui",
-  "version": "1.0.1",
+  "name": "zx-ui",
+  "version": "1.0.2",
   "description": "lucky-ui resp",
   "publishConfig": {
     "access": "public",
